@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "configurations": [
+    {
+      "name": "Flutter",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "iPhone 8 (mobile)",
+      "deviceId": "BB313576-8AAC-49C6-B359-2C736BB6DA51",
+      "type": "dart",
+      "request": "launch"
+    },
+    {
+      "name": "iPhone 12 Pro Max (mobile)",
+      "deviceId": "226AE3E2-2735-468B-9EA7-B4FEE3F65BE7",
+      "type": "dart",
+      "request": "launch"
+    },
+    {
+      "name": "macOS (desktop)",
+      "deviceId": "macos",
+      "type": "dart",
+      "request": "launch"
+    },
+    {
+      "name": "Chrome (web)",
+      "deviceId": "chrome",
+      "type": "dart",
+      "request": "launch"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "current",
+      "configurations": [
+        "iPhone 8 (mobile)",
+        "iPhone 12 Pro Max (mobile)",
+        "macOS (desktop)",
+        "Chrome (web)"
+      ]
+    }
+  ]
+}
